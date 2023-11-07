@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+.services-top{
+    width: 1440px;
+    height: 200px;
+    /* border: 1px solid; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services-top-title{
+    color: var(--text-color, #252B42);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    padding-top: 60px;
+}
+
+.services-top-p{
+    color: var(--second-text-color, #737373);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    padding-top: 5px;
+}
+
+.services-bottom{
+    display: flex;
+    width: 1440px;
+    height: 500px;
+    /* border: 1px solid; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services-bottom-left{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid; */
+}
+
+.services-bottom-left-img{
+    width: 520px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 120px;
+    cursor: pointer;
+}
+
+.services-bottom-right {
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid; */
+}
+
+.services-bottom-right-title{
+    color: var(--text-color, #252B42);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 57px; */
+    letter-spacing: 0.2px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.services-bottom-right-p{
+    color: var(--second-text-color, #737373);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    margin-left: 50px;
+}
+
+.services-bottom-left-bottom1{
+    display: flex;
+    margin-top: 30px;
+}
+
+.service-bottom-left-logo{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.service-bottom-left-title{
+    color: var(--text-color, #252B42);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.service-bottom-left-p{
+    color: var(--second-text-color, #737373);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin-left: 10px;
+    margin-top: 5px;
+}

@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+#contact{
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid; */
+    width: 1440px;
+    background-color: #ededed;
+}
+
+.contact-top{
+    width: 1440px;
+    height: 50%;
+    /* border: 1px solid; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-top-title{
+    color: var(--text-color, #252B42);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    padding-top: 200px;
+    /* margin-top: 150px; */
+}
+
+.contact-top-p{
+    color: var(--second-text-color, #737373);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+.contact-list{
+    /* width: 20%; */
+    /* height: 300px; */
+    /* border: 1px solid; */
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 40px;
+}
+
+.contact-item{
+    width: 17%;
+    height: 300px;
+    /* border: 1px solid; */
+    list-style: none;
+    background-color: #fff;
+}
+
+.contact-logo{
+    width: 70px;
+    height: 70px;
+    margin-left: 80px;
+}
+
+.contact-p{
+    color: var(--text-color, #252B42);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin-top: 5px;
+}
+
+.contact-h5{
+    color: var(--text-color, #252B42);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    margin-top: 10px;
+}
+
+.contact-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 130px;
+    height: 35px;
+    border: 1px solid #FFA62B;
+    border-radius: 5px;
+    color: #FFA62B;
+    cursor: pointer;
+}
+
+.contact-item:hover svg{
+    fill: #fff;
+}
+
+.contact-item:hover p{
+    color: #fff;
+}
+
+.contact-item:hover h5{
+    color: #fff;
+}
+
+.contact-item:hover button{
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #252B42;
+}
+
+.contact-item:hover{
+    background-color: #252B42;
+}
