@@ -1,0 +1,141 @@
+#contact,
+.contact-top {
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.contact-top-p,
+.contact-top-title {
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal
+}
+
+#contact,
+.contact-btn,
+.contact-top {
+    margin-right: auto
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Montserrat
+}
+
+#contact {
+    height: 800px;
+    background-color: #ededed
+}
+
+.contact-top {
+    height: 50%
+}
+
+.contact-top-title {
+    color: var(--text-color, #252b42);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: .2px;
+    padding-top: 200px
+}
+
+.contact-p,
+.contact-top-p {
+    font-size: 14px;
+    letter-spacing: .2px
+}
+
+.contact-top-p {
+    color: var(--second-text-color, #737373);
+    font-weight: 500;
+    line-height: 20px
+}
+
+.contact-h5,
+.contact-p {
+    color: var(--text-color, #252b42);
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    line-height: 24px
+}
+
+.contact-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 40px
+}
+
+.contact-item {
+    width: 17%;
+    height: 300px;
+    list-style: none;
+    background-color: #fff
+}
+
+.contact-logo {
+    width: 70px;
+    height: 70px;
+    margin-left: 80px
+}
+
+.contact-p {
+    font-weight: 600;
+    margin-top: 5px
+}
+
+.contact-h5 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: .1px;
+    margin-top: 10px
+}
+
+.contact-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-top: 30px;
+    width: 130px;
+    height: 35px;
+    border: 1px solid #ffa62b;
+    border-radius: 5px;
+    color: #ffa62b;
+    cursor: pointer
+}
+
+.contact-item:hover svg {
+    fill: #fff
+}
+
+.contact-item:hover h5,
+.contact-item:hover p {
+    color: #fff
+}
+
+.contact-item:hover button {
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #252b42
+}
+
+.contact-item:hover {
+    background-color: #252b42
+}
